@@ -1,0 +1,9 @@
+This is a project assigned to me in the course CS-61B. The majority of the code in Pixel.java, PixImage.java, RunIterator.java, Run.java, DList.java, DListNode.java, and RunLengthEncoding.java was written by me. The rest of it was supplied as a part of the project code.
+
+Given an image, this module can convert it from an array of pixels to a run length encoding, blur the image, and perform Sobel edge detection on the image. It takes .TIFF images as input.
+
+In order to blur an image, perform the following operation (after compiling the code):
+java Blur "image".tiff #of times you want to blur
+
+In order to perform Sobel edge detection on an image, perform the following operation (after compiling the code):
+java Sobel "image".tiff #of times you want to blur
